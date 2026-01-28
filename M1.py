@@ -78,15 +78,17 @@ plt.show()
 
 
 #Modelado
+def drop_specific_columns(x):
+    drop_cols = ["prior_programming_experience", "student_id", "final_exam_score"]
+    return x.drop(drop_cols, axis=1, errors="ignore")
+
 
 drop_cols = ["prior_programming_experience", "student_id", "final_exam_score"] #Columnas a eliminar
 
 num_var = make_column_selector(dtype_include="number")
 cat_var = make_column_selector(dtype_include="object")
 
-pipe_drop = FunctionTransformer(
-        lambda x : x.drop(drop_cols, axis =1, errors = "ignore")
-                                )
+pipe_drop = FunctionTransformer(drop_specific_columns)
 
 pipe_num = Pipeline(steps = [("imp_num", SimpleImputer(strategy = "median"))])
 
@@ -185,6 +187,7 @@ var_finales = variables[filtro_var_selec]
 coefs = best_pipe.named_steps["classifier"].coef_.ravel()
 intercepto = float(best_pipe.named_steps["classifier"].intercept_)
 
+print(f"Las variables finales seleccionadas son: {var_finales}")
 
 df_formula = pd.DataFrame({
     "feature": var_finales,
