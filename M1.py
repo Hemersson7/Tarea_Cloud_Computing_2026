@@ -1,6 +1,5 @@
 
 #Librerias
-import kagglehub
 import os
 import pandas as pd
 import numpy as np
@@ -22,7 +21,7 @@ from sklearn.inspection import PartialDependenceDisplay
 import warnings
 warnings.filterwarnings("ignore")
 
-df = pd.read_csv("Tarea_Cloud_Computing_2026\python_learning_exam_performance.csv")
+df = pd.read_csv("python_learning_exam_performance.csv")
 print(df.head())
 
 print("\Chequeamos las dimensiones:")
