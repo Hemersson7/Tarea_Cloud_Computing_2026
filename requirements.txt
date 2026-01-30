@@ -1,10 +1,6 @@
-pandas
-numpy
-seaborn
-matplotlib
-scikit-learn
-xgboost
-pickle
 fastapi
 uvicorn
-pydantic
+pandas
+scikit-learn
+xgboost
+numpy
