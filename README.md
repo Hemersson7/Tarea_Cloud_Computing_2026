@@ -57,5 +57,12 @@ La justificación de la elección del Accuracy es netamente arbitraria dado el c
   "self_reported_confidence_python": 0.6
 }
 
+| Parámetro | Valor | Descripción |
+| :--- | :--- | :--- |
+| `hours_spent_learning_per_week` | 21 | Horas promedio por semana de aprendizaje en Python |
+| `projects_completed` | 6 | Proyectos en Python completados en el curso |
+| `debugging_sessions_per_week` | 4 | Promedio de sesiones haciendo debugging por semana |
+| `self_reported_confidence_python` | 0.6 | Confianza autopercibida en programación en Python |
+
 ## Plataforma cloud usada para el deploy
 Google Cloud Run
