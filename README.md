@@ -1,4 +1,4 @@
-# Informe de Proyecto: Predicción de Aprobación en Python
+# Modelo de predicción de Aprobación examen en Python
 
 ## Integrantes
 * Daniela Casallas
@@ -50,12 +50,12 @@ La justificación de la elección del Accuracy es netamente arbitraria dado el c
 
 ## Ejemplo de request al endpoint /predict:
 
-{
-  "hours_spent_learning_per_week": 21,
-  "projects_completed": 6,
-  "debugging_sessions_per_week": 4,
-  "self_reported_confidence_python": 0.6
-}
+{  
+  "hours_spent_learning_per_week": 21,  
+  "projects_completed": 6,  
+  "debugging_sessions_per_week": 4,  
+  "self_reported_confidence_python": 0.6  
+}  
 
 | Parámetro | Valor | Descripción |
 | :--- | :--- | :--- |
