@@ -51,10 +51,10 @@ La justificación de la elección del Accuracy es netamente arbitraria dado el c
 ## Ejemplo de request al endpoint /predict:
 
 {  
-  "hours_spent_learning_per_week": 21,  
-  "projects_completed": 6,  
-  "debugging_sessions_per_week": 4,  
-  "self_reported_confidence_python": 0.6  
+  &nbsp;"hours_spent_learning_per_week": 21,  
+  &nbsp;"projects_completed": 6,  
+  &nbsp;"debugging_sessions_per_week": 4,  
+  &nbsp;"self_reported_confidence_python": 0.6  
 }  
 
 | Parámetro | Valor | Descripción |
