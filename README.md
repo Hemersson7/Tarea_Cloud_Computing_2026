@@ -11,7 +11,7 @@
 ## Descripción del Problema
 El desarrollo de este trabajo surge a partir de una colección de datos generados artificialmente y de manera netamente académica para responder a la pregunta de **si un estudiante de Python aprobará o no su examen**. Para esto, se manejan distintas variables asociadas al estudio y características del estudiante.
 
-> **Nota:** El set de datos fue extraído desde Kaggle y el modelado del problema es de autoría del grupo (Publicado en Kaggle).
+> **Nota:** El set de datos fue extraído desde Kaggle y el modelado del problema es de autoría del grupo (Publicado en Kaggle: [Link Kaggle](https://www.kaggle.com/code/hemerssongutirrez/python-learning-multiple-models-using-pipeline )).
 
 ### Diccionario de Variables
 
