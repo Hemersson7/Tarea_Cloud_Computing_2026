@@ -66,9 +66,11 @@ La justificación de la elección del Accuracy es netamente arbitraria dado el c
 
 ## Ejemplo de Output
 
-El resultado de la predicción será una respuesta Binaria de si se aprobará o no el examen (1 = Aprueba, 0 = Caso contrario) más una probabilidad estimada de hacerlo
+El resultado de la predicción será una respuesta **binaria** de si se aprobará o no el examen **(1 = aprobado, 0 = reprobado)** más una probabilidad estimada de hacerlo:
 
-{
+A continuación se presenta un ejemplo
+
+{  
   &nbsp;"pasara_el_examen": 1,  
   &nbsp;"probabilidad_exito": 0.9312633590021154  
 }
